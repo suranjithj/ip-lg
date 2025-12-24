@@ -1,9 +1,14 @@
 {
   "name": "ip-logger",
   "version": "1.0.0",
+  "description": "Simple image-based IP analytics tracker using Node.js and Express",
   "main": "server.js",
+  "private": true,
   "scripts": {
     "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
